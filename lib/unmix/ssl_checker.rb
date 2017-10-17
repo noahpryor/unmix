@@ -1,7 +1,7 @@
 require "openssl"
+require "net/http"
 module Unmix
   class SslChecker
-
 
     def self.valid_cert?(url, open_timeout: 5, read_timeout: 5)
       uri = URI.parse(url)
