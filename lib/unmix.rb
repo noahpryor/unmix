@@ -1,5 +1,5 @@
 require "unmix/version"
-require "unmix/link_checker"
 require "unmix/content"
+require "unmix/ssl_checker"
 module Unmix
 end
